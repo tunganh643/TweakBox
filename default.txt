@@ -1,0 +1,74 @@
+powershell start-process powershell -verb runas & %userprofile%\TweakBox\default.txt
+Copy And Paste In Powershell
+3D Builder      Get-AppxPackage -AllUsers *3dbuilder* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+3D Print        Get-AppxPackage -AllUsers *print3d* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+3D Viewer       Get-AppxPackage -AllUsers *3dviewer* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Alarms          Get-AppxPackage -AllUsers *alarms* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+News            Get-AppxPackage -AllUsers *bingnews* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Weather         Get-AppxPackage -AllUsers *bingweather* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Calculator      Get-AppxPackage -AllUsers *calculator* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Camera          Get-AppxPackage -AllUsers *camera* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Cortana         Get-AppxPackage -AllUsers microsoft.549981C3F5F10 | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Feedback Hub    Get-AppxPackage -AllUsers *feedbackhub* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get Help        Get-AppxPackage -AllUsers *gethelp* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get Started     Get-AppxPackage -AllUsers *getstarted* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Maps            Get-AppxPackage -AllUsers *maps* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Mail Calendar   Get-AppxPackage -AllUsers *windowscommunicationsapps* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Sticky Notes    Get-AppxPackage -AllUsers *stickynotes* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Groove Music    Get-AppxPackage -AllUsers *zunemusic* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+MoviesTV        Get-AppxPackage -AllUsers *zunevideo* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Photos          Get-AppxPackage -AllUsers *photos* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Remote Desktop  Get-AppxPackage -AllUsers *remotedesktop* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Your Phone      Get-AppxPackage -AllUsers *yourphone* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Paint           Get-AppxPackage -AllUsers *mspaint* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Voice Recorder  Get-AppxPackage -AllUsers *soundrecorder* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Messaging       Get-AppxPackage -AllUsers *messaging* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+MS Team         Get-AppxPackage -AllUsers *microsoft.teams* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+MS To Do        Get-AppxPackage -AllUsers *microsoft.todo* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+MS Edge         Get-AppxPackage -AllUsers *microsoftedge.stable* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+MS Store        Get-AppxPackage -AllUsers *windowsstore* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+                Get-AppxPackage -AllUsers *storepurchaseapp* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+Office          Get-AppxPackage -AllUsers *officehub* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+                Get-AppxPackage -AllUsers *office.desktop* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+Mixed Reality   Get-AppxPackage -AllUsers *mixedreality* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Portal 
+
+Wallet          Get-AppxPackage -AllUsers *wallet* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+People          Get-AppxPackage -AllUsers *people* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+OneNote         Get-AppxPackage -AllUsers *onenote* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Sway            Get-AppxPackage -AllUsers *sway* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Snip Sketch     Get-AppxPackage -AllUsers *screensketch* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+Solitaire       Get-AppxPackage -AllUsers *solitairecollection* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Collection 
+
+Xbox App        Get-AppxPackage -AllUsers *xboxapp* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+                Get-AppxPackage -AllUsers *xboxidentityprovider* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+                Get-AppxPackage -AllUsers *xboxgamingoverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Xbox Extras     Get-AppxPackage -AllUsers *xbox.tcui* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+                Get-AppxPackage -AllUsers *xboxgameoverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+                Get-AppxPackage -AllUsers *xboxspeechtotextoverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+Realtek Audio   Get-AppxPackage -AllUsers *realtekaudiocontrol* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Control 
+
+Twitter         Get-AppxPackage -AllUsers *twitter* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Spotify         Get-AppxPackage -AllUsers *spotify* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Speedtest       Get-AppxPackage -AllUsers *speedtest* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Mirkat          Get-AppxPackage -AllUsers *mirkat* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+LinkedIn        Get-AppxPackage -AllUsers *linkedin* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Flipboard       Get-AppxPackage -AllUsers *flipboard* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Facebook        Get-AppxPackage -AllUsers *facebook* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Messenger       Get-AppxPackage -AllUsers *facebook.facebook* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Duolingo        Get-AppxPackage -AllUsers *duolingo* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+CandyCrush      Get-AppxPackage -AllUsers *candyCrush* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+Adobe Photoshop Get-AppxPackage -AllUsers *adobephotoshopexpress* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Express                 
+
+Intel Graphics  Get-AppxPackage -AllUsers *intelgraphicscontrolpanel* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Control Panel  
