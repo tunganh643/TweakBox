@@ -1,2 +1,2 @@
 # TweakBox
-Optimize Window And Fix Lag
+Optimize Window And Reduce Lag
